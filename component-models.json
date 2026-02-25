@@ -206,6 +206,23 @@
     ]
   },
   {
+    "id": "columns-bio",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "column1",
+        "label": "Image Column",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "column2",
+        "label": "Bio Content",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "columns",
     "fields": [
       {
@@ -272,6 +289,17 @@
         "component": "aem-content",
         "name": "reference",
         "label": "Reference"
+      }
+    ]
+  },
+  {
+    "id": "hero-leader",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "content",
+        "label": "Content",
+        "valueType": "string"
       }
     ]
   },

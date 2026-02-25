@@ -1,0 +1,19 @@
+{
+  "variantName": "hero-leader",
+  "baseBlock": "hero",
+  "description": "Leadership bio hero with solid navy blue (#071D49) background, rounded top-left corner, and overlapping white card containing H1 name and subtitle role",
+  "sourceUrl": "https://www.abbvie.com/who-we-are/our-leaders/robert-michael.html",
+  "visualCharacteristics": {
+    "backgroundColor": "#071D49",
+    "whiteCardOverlap": true,
+    "borderRadius": "64px top-left",
+    "noBackgroundImage": true,
+    "titleFont": "F37 Lineca Medium, 48px, weight 800",
+    "subtitleFont": "Roboto Light, 24px, weight 300",
+    "textColor": "#071D49"
+  },
+  "usedOn": [
+    "https://www.abbvie.com/who-we-are/our-leaders/robert-michael.html"
+  ],
+  "createdAt": "2026-02-25"
+}

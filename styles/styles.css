@@ -43,6 +43,39 @@
   --header-height: var(--nav-height);
 }
 
+/* custom fonts */
+@font-face {
+  font-family: "F37 Lineca Medium";
+  src: url('/styles/fonts/F37Lineca-Medium.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Regular";
+  src: url('/styles/fonts/Roboto-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Light";
+  src: url('/styles/fonts/Roboto-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Bold";
+  src: url('/styles/fonts/Roboto-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* fallback fonts */
 @font-face {
   font-family: roboto-condensed-fallback;

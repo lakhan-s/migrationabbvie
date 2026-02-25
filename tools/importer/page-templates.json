@@ -1,0 +1,61 @@
+{
+  "templates": [
+    {
+      "name": "leader-bio",
+      "urls": [
+        "https://www.abbvie.com/who-we-are/our-leaders/robert-michael.html"
+      ],
+      "description": "Leadership biography page featuring executive hero banner, bio content, and related links",
+      "blocks": [
+        {
+          "name": "hero-leader",
+          "instances": [
+            ".container.large-radius.cmp-container-full-width",
+            ".container.overlap-predecessor"
+          ]
+        },
+        {
+          "name": "columns-bio",
+          "instances": [
+            ".grid.aem-GridColumn"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-hero",
+          "name": "Hero Banner + Leader Identity",
+          "selector": [
+            ".container.large-radius.cmp-container-full-width",
+            ".container.overlap-predecessor"
+          ],
+          "style": "navy-blue",
+          "blocks": [
+            "hero-leader"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-bio",
+          "name": "Biography Content",
+          "selector": ".grid.aem-GridColumn",
+          "style": null,
+          "blocks": [
+            "columns-bio"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-separator",
+          "name": "Separator",
+          "selector": ".separator.separator-height-96",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".separator.separator-height-96 hr"
+          ]
+        }
+      ]
+    }
+  ]
+}

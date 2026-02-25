@@ -1,0 +1,18 @@
+{
+  "variantName": "columns-bio",
+  "baseBlock": "columns",
+  "description": "Two-column biography layout with leader headshot image on left and bio text paragraphs + LinkedIn CTA on right",
+  "sourceUrl": "https://www.abbvie.com/who-we-are/our-leaders/robert-michael.html",
+  "visualCharacteristics": {
+    "layout": "image-left text-right (42%-58% split)",
+    "bioFont": "Roboto Regular, 16px, weight 400, line-height 22px",
+    "bioColor": "#071D49",
+    "paragraphSpacing": "30px",
+    "ctaStyle": "outlined blue button",
+    "ctaColor": "#0066F5"
+  },
+  "usedOn": [
+    "https://www.abbvie.com/who-we-are/our-leaders/robert-michael.html"
+  ],
+  "createdAt": "2026-02-25"
+}

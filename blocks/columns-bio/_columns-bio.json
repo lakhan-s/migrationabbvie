@@ -1,0 +1,29 @@
+{
+  "definitions": [
+    {
+      "component": "columns-bio",
+      "name": "Columns Bio",
+      "model": "columns-bio",
+      "filter": ""
+    }
+  ],
+  "models": [
+    {
+      "id": "columns-bio",
+      "fields": [
+        {
+          "component": "richtext",
+          "name": "column1",
+          "label": "Image Column",
+          "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "name": "column2",
+          "label": "Bio Content",
+          "valueType": "string"
+        }
+      ]
+    }
+  ]
+}

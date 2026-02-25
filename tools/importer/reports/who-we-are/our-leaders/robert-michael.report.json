@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.abbvie.com/who-we-are/our-leaders/robert-michael.html",
+  "path": "who-we-are/our-leaders/robert-michael",
+  "timestamp": "2026-02-25T08:41:20.750Z",
+  "title": "Robert A. Michael | AbbVie",
+  "template": "leader-bio",
+  "blocks": [
+    "hero-leader",
+    "hero-leader",
+    "columns-bio"
+  ]
+}

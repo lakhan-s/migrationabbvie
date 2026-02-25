@@ -1,0 +1,94 @@
+main > .columns-bio-container {
+  margin: 0;
+}
+
+.columns-bio-container .columns-bio-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 55px;
+}
+
+.columns-bio > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns-bio img {
+  width: 100%;
+  display: block;
+}
+
+.columns-bio > div > div {
+  order: 1;
+}
+
+.columns-bio > div > .columns-bio-img-col {
+  order: 0;
+}
+
+.columns-bio > div > .columns-bio-img-col img {
+  display: block;
+}
+
+.columns-bio p {
+  font-family: "Roboto Regular", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #071d49;
+  margin: 0 0 30px;
+}
+
+.columns-bio a.button {
+  font-family: "Roboto Bold", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  color: #0066f5;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  background-color: transparent;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 20px;
+  display: inline-block;
+  margin: 0;
+}
+
+.columns-bio a.button:hover {
+  background-color: transparent;
+  color: #0066f5;
+  text-decoration: underline;
+}
+
+.columns-bio .button-container {
+  margin: 0 0 24px;
+}
+
+@media (width >= 900px) {
+  .columns-bio > div {
+    align-items: flex-start;
+    flex-direction: unset;
+    gap: 20px;
+  }
+
+  .columns-bio > div > div {
+    flex: 1;
+    order: unset;
+  }
+
+  .columns-bio > div > .columns-bio-img-col {
+    flex: 0 0 42%;
+  }
+}
+
+@media (width < 600px) {
+  .columns-bio-container .columns-bio-wrapper {
+    padding: 0 24px;
+  }
+
+  .columns-bio > div {
+    gap: 24px;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "definitions": [
+    {
+      "component": "hero-leader",
+      "name": "Hero Leader",
+      "model": "hero-leader",
+      "filter": ""
+    }
+  ],
+  "models": [
+    {
+      "id": "hero-leader",
+      "fields": [
+        {
+          "component": "richtext",
+          "name": "content",
+          "label": "Content",
+          "valueType": "string"
+        }
+      ]
+    }
+  ]
+}
